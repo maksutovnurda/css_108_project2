@@ -1,0 +1,105 @@
+.actionButton {
+    -fx-padding: 5px 15 5px 15px;
+    -fx-background-color: #3700b3;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-cursor: hand;
+    -fx-text-fill: #ffffff;
+    -fx-border-insets: 2.5px 0 2.5px 0;
+    -fx-background-insets: 2.5px 0 2.5px 0;
+}
+.actionButton:hover {
+    -fx-background-color: #ffc000;
+    -fx-text-fill: #3700b3;
+}
+.actionButton2 {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-cursor: hand;
+    -fx-text-fill: #3700b3;
+}
+.actionButton2:hover {
+    -fx-background-color: #ffc000;
+}
+
+.userInput {
+    -fx-max-width: 200px;
+    -fx-border-color: #3700b3;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-image-insets: 15px;
+    -fx-border-insets: 2.5px 0 2.5px 0;
+    -fx-background-insets: 2.5px 0 2.5px 0;
+}
+
+.userInput:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.08);
+}
+
+.userInput:focused {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ffc000;
+}
+
+.linkText {
+    -fx-underline: true;
+    -fx-cursor: hand;
+}
+
+.linkText:hover {
+    -fx-underline: false;
+}
+.error {
+    -fx-pref-width: 200px;
+    -fx-border-color: darkred;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-background-color: rgba(255, 0, 0, 0.08);
+    -fx-label-padding: 0 10px 0 10px;
+    -fx-border-insets: 5px 0 5px 0;
+    -fx-background-insets: 5px 0 5px 0;
+    -fx-text-alignment: center;
+    -fx-text-fill: darkred;
+    -fx-cell-size: 0;
+    visibility: false;
+}
+
+.gender {
+    -fx-max-width: 200px;
+    -fx-max-height: 30px;
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+}
+.sidebar {
+    -fx-background-color:  #4b1abb;
+    -fx-pref-width: 170px;
+}
+.sidebar_item {
+    -fx-background-color: #3700b3;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-padding: 10px;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-min-width: 170px;
+}
+.sidebar_item:hover {
+    -fx-text-fill: #ffc000;
+}
+.sidebar_title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 30px 0;
+    -fx-text-fill: white;
+}
+.posts {
+    -fx-padding: 10px;
+}
+.post_image {
+    -fx-background-color: rgba(0, 0, 0, .2);
+    -fx-padding: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-background-insets: 5px;
+}
